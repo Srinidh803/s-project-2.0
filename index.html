@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Shailaja Foods</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script src="scriptm.js"></script>
+<script src="script.js"></script>
+<link rel="stylesheet" href="stylem.css">
+
+</head>
+<body>
+<header>
+        <nav>
+              
+            <div id="logo">
+                Shailaja  <br> Foods
+            </div>
+            <ul class="navigation-menu">
+                <li><a href="#">Foods</a>
+                    <ul class="subnav">
+                        <li class="card-med" id="sup-dog">
+                            <button class="card-image" style="border: 0;" id="Pickleinfobtn"><img src="35706.png"></button>
+                            <a href="product1.html">
+                                <span>Pickles</span>
+                                <span>More info <span class="material-symbols-outlined">
+                                        arrow_forward
+                                    </span></span>
+                            </a>
+                        </li>
+                        <li class="card-med" id="sup-dog">
+                            <button class="card-image" style="border: 0;" id="snacksinfobtn"><img src="Round-Murukulu.png"></button>
+                            <a href="product2.html">
+                                <span>Snacks</span>
+                                <span>More info <span class="material-symbols-outlined">
+                                        arrow_forward
+                                    </span></span>
+                            </a>
+                        </li>
+                        <li class="card-med" id="sup-cat">
+                            <button class="card-image" style="border: 0;" id="sweetsinfobtn"><img src="milk_mysorepak perfect.png"></button>
+                            <a href="product3.html">
+                                <span>Sweets</span>
+                                <span>More info <span class="material-symbols-outlined">
+                                        arrow_forward
+                                    </span></span>
+                            </a>
+                        </li>
+                        <li class="card-med" id="sup-cat">
+                            <button class="card-image" style="border: 0;" id="powederinfobtn"><img src="curry-leaves-powder perfect.png"></button>
+                            <a href="product4.html">
+                                <span>Poweders</span>
+                                <span>More info <span class="material-symbols-outlined">
+                                        arrow_forward
+                                    </span></span>
+                            </a>
+                        </li>
+                    </ul>
+
+
+                <li><a href="@">Services</a>
+                    
+                </li>
+                <li><a href="https://maps.app.goo.gl/M2exBK2MamPacAsHA">Locations &amp; Hours</a>
+                </li>
+                <li>
+                    <a href="">About Our shop</a>
+                </li>
+            </ul>
+            <div id="utility">
+                <input type="text" id="search" style="opacity: 0;display: none; margin-top: 0;">
+                <a class="material-symbols-outlined" href="#" id="demo" style="text-decoration: none; color: black;" onclick="searchfi()">
+                    search
+                </a>
+                <a class="material-symbols-outlined" href="cart.html" id="demo1" style="text-decoration: none; color: black;">
+                    shopping_cart
+                </a>
+
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1 id="anibh1">Your One-Stop Shop for Every Food Needs!</h1>
+        <div class="btn-group" id="anibtn">
+            <button class="btn-filled-dark"><span class="material-symbols-outlined">
+                    shopping_cart
+                </span>More info on Foods</button>
+            <button class="btn-outline-dark btn-hover-color"><span class="material-symbols-outlined">
+                    calendar_month
+                </span> Book a Service</button>
+        </div>
+
+    </section>
+    <section>
+        <h2>Featured Products</h2>
+        <ul class="featured-products">
+            <li class="card card-small card-light">
+                <div class="card-image">
+                    <img src="view-traditional-indian-dessert.png" alt="Featured Product 1">
+                </div>
+                <ul>
+                    <li class="fname">Featured Product 1</li>
+                    <li><a href="#" style="color: white;text-decoration: none;";>Description of featured product 1</a></li>
+                    <li><a href="#" style="color: white;text-decoration: none;">$20.00</a></li>
+                    <button class="btn-outline-light" onclick="addcart()">
+                        Add to cart
+                        <span class="material-symbols-outlined" style="vertical-align: middle;">
+                            arrow_forward
+                        </span>
+                    </button>
+                </ul>
+            </li>
+            <li class="card card-small card-dark">
+                <div class="card-image">
+                    <img src="view-traditional-indian-dessert.png" alt="Featured Product 2">
+                </div>
+                <ul>
+                    <li class="fname">Featured Product 2</li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Description of featured product 2</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">$30.00</a></li>
+                    <button class="btn-outline-dark" onclick="addcart()">Add to cart<span class="material-symbols-outlined" style="vertical-align: middle;">
+                            arrow_forward
+                        </span></button>
+                </ul>
+            </li>
+            <li class="card card-small card-dark">
+                <div class="card-image">
+                    <img src="view-traditional-indian-dessert.png" alt="Featured Product 2">
+                </div>
+                <ul>
+                    <li class="fname">Featured Product 2</li>
+                    <li><a href="#" style="color: white;text-decoration: none;">Description of featured product 2</a></li>
+                    <li><a href="#" style="color: white;text-decoration: none;">$30.00</a></li>
+                    <button class="btn-outline-dark" onclick="addcart()">Add to cart<span class="material-symbols-outlined" style="vertical-align: middle;">
+                            arrow_forward
+                        </span></button>
+                </ul>
+            </li>
+            <li class="card card-small card-dark">
+                <div class="card-image">
+                    <img src="view-traditional-indian-dessert.png" alt="Featured Product 2">
+                </div>
+                <ul>
+                    <li class="fname">Featured Product 2</li>
+                    <li><a href="#" style="color: white;text-decoration: none;">Description of featured product 2</a></li>
+                   <li><a href="#" style="color: white;text-decoration: none;">$30.00</a></li>
+                    <button class="btn-outline-dark" onclick="addcart()">Add to cart<span class="material-symbols-outlined" style="vertical-align: middle;">
+                            arrow_forward
+                        </span></button>
+                </ul>
+            </li>
+            <li class="card card-small card-dark">
+                <div class="card-image">
+                    <img src="view-traditional-indian-dessert.png" alt="Featured Product 2">
+                </div>
+                <ul>
+                    <li class="fname">Featured Product 2</li>
+                    <li><a href="#" style="color: white;text-decoration: none;">Description of featured product 2</a></li>
+                   <li><a href="#" style="color: white;text-decoration: none;">$30.00</a></li>
+                    <button class="btn-outline-dark" onclick="addcart()">Add to cart<span class="material-symbols-outlined" style="vertical-align: middle;">
+                            arrow_forward
+                        </span></button>
+                </ul>
+            </li>
+            <li class="card card-small card-dark">
+                <div class="card-image">
+                    <img src="view-traditional-indian-dessert.png" alt="Featured Product 2">
+                </div>
+                <ul>
+                    <li class="fname">Featured Product 2</li>
+                    <li><a href="#" style="color: white;text-decoration: none;">Description of featured product 2</a></li>
+                   <li><a href="#" style="color: white;text-decoration: none;">$30.00</a></li>
+                    <button class="btn-outline-dark" onclick="addcart()">Add to cart<span class="material-symbols-outlined" style="vertical-align: middle;">
+                            arrow_forward
+                        </span></button>
+                </ul>
+            </li>
+            <li class="card card-small card-dark">
+                <div class="card-image">
+                    <img src="view-traditional-indian-dessert.png" alt="Featured Product 2">
+                </div>
+                <ul>
+                    <li class="fname">Featured Product 2</li>
+                    <li><a href="#" style="color: white;text-decoration: none;">Description of featured product 2</a></li>
+                   <li><a href="#" style="color: white;text-decoration: none;">$30.00</a></li>
+                    <button class="btn-outline-dark" onclick="addcart()">Add to cart<span class="material-symbols-outlined" style="vertical-align: middle;">
+                            arrow_forward
+                        </span></button>
+                </ul>
+            </li>
+            <li class="card card-small card-dark">
+                <div class="card-image">
+                    <img src="view-traditional-indian-dessert.png" alt="Featured Product 2">
+                </div>
+                <ul>
+                    <li class="fname">Featured Product 2</li>
+                    <li><a href="#" style="color: white;text-decoration: none;">Description of featured product 2</a></li>
+                   <li><a href="#" style="color: white;text-decoration: none;">$30.00</a></li>
+                    <button class="btn-outline-dark" onclick="addcart()">Add to cart<span class="material-symbols-outlined" style="vertical-align: middle;">
+                            arrow_forward
+                        </span></button>
+                </ul>
+            </li>
+            <!-- Add more featured products as needed -->
+        </ul>
+    </section>
+    <section>
+        <h2>Shop by </h2>
+
+        <ul class="shop-pets">
+            <li class="card-large card-light" id="sup-dog">
+                <div class="card-image"><img src="kimchi-ready-eat-bowl.png"></div>
+                <ul>
+                    Pickles
+                    <li>
+                        <a href="@">
+                            Chicken Pickle
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Mutton Pickle
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Mango Pickle
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Fish Pickle
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Tamato Pickle
+                        </a>
+                    </li>
+
+                    <button class="btn-outline-light" id="Pickleinfobtn1">More info<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+
+                </ul>
+
+
+            </li>
+
+            <li class="card-large card-dark" id="sup-cat">
+                <div class="card-image">
+                    <img src="murukku snack.png">
+                </div>
+                <ul>Snacks
+                    <li>
+                        <a href="@">
+                            Bondi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Arisalu
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Murukulu
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Garalu
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Sakinalu
+                        </a>
+                    </li>
+                    <button class="btn-outline-dark" id="snacksinfobtn1">More info<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+
+            </li>
+
+            <li class="card-large card-dark" id="sup-bird">
+                <div class="card-image"><img src="view-traditional-indian-dessert.png"> </div>
+                <ul>Sweets
+                    <li>
+                        <a href="@">
+                            Bondi Laddu
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Milk Mysore
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Gondh Laddu
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Madtha Kaja
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Badusha
+                        </a>
+                    </li>
+                    <button class="btn-outline-dark" id="sweetsinfobtn1">More info<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+
+            </li>
+            <li class="card-large card-light" id="sup-fish">
+                <div class="card-image"><img src="flat-lay-spices-lemon-slices.png"></div>
+                <ul>
+                    Poweders
+                    <li>
+                        <a href="@">
+                            Curry Leaf Powder
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Sambar Powder
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Ghram masala Poweder
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Munagaku Poweder
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@">
+                            Nalla karam Podi
+                        </a>
+                    </li>
+                    <button class="btn-outline-light" id="powederinfobtn1">More info<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>
+            Our Services
+        </h2>
+
+        <ul class="services">
+            <li class="card-large card-dark card-wide" id="serv-groom">
+                <div class="card-image"><img src="cooking.png"></div>
+                <ul>
+                    Customized orders<span class="subtitle">Making customer desired Foods</span>
+                    <p style="font-size: small;">We specialize in creating custom food orders made to your preferences. Share your tastes, and special requests with our team, and we will prepare a meal just for you. Enjoy a personalized food experience made to match your unique needs.</p>
+                    <button class="btn-filled-dark"><span class="material-symbols-outlined">
+                            calendar_month
+                        </span>Book Now</button>
+
+                </ul>
+
+
+            </li>
+        </ul>
+    </section>
+
+    <section id="locate">
+
+        <div>
+            <h2>Location &amp; Hours</h2>
+            <p>Our friendly staff is always ready to help you in trouble.</p>
+            <div class="btn-group">
+                <button class="btn-filled-dark" id="storelocbtn" onclick="showlocation()"><span class="material-symbols-outlined">
+pin_drop
+</span>Find  Store</button>
+                <button class="btn-outline-dark btn-hover-color"><span class="material-symbols-outlined">
+contact_support
+</span> Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <ul>
+            Foods
+            <li>
+                <a href="@">
+                    Snacks
+                </a>
+            </li>
+            <li>
+                <a href="@">
+                    Sweets
+                </a>
+            </li>
+            <li>
+                <a href="@">
+                    Pickles
+                </a>
+            </li>
+            <li>
+        </ul>
+        <ul>
+            Our Services
+            <li>
+                <a href="@">
+                    Cuztamizied Orders</a>
+                </li>
+        </ul>
+        <ul>
+            Our Company
+            <li>
+                <a href="@">
+                    Locations &amp; Hours
+                </a>
+            </li>
+            <li>
+                <a href="@">
+                    About Our shop
+                </a>
+            </li>
+        </ul>
+
+
+    </footer>
+    <section class="footer-section">
+        <div class="footer-container">
+            <div class="footer-subsection">
+                <h3>Contact Us</h3>
+                <p>Email: info@company.com</p>
+                <p>Phone: +123-456-7890</p>
+                <p>Address: 123 Company St., City, Country</p>
+            </div>
+            <div class="footer-subsection">
+                <h3>Legal</h3>
+                <p>© 2024 Company. All rights reserved.</p>
+                <p><a href="#">Privacy Policy</a></p>
+                <p><a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </section>
+  <script  src="./script.js">
+
+  </script>
+
+</body>
+</html>
